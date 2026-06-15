@@ -14,3 +14,7 @@
 - **Python:** 3.13 или выше
 - **OpenCV:** 4.8.0 или выше
 - **NumPy:** 1.24.0 или выше
+
+### Start:
+- python main.py 
+- .\path_to_video\
