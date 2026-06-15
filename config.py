@@ -1,0 +1,23 @@
+import cv2
+
+# Lucas-Kanade parameters
+LK_PARAMS = dict(
+    winSize=(41, 41),
+    maxLevel=3,
+    criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 20, 0.01)
+)
+
+# Tracking
+SMOOTHING_FACTOR = 0.85
+CORNER_WINDOW = 20
+CORNER_QUALITY = 0.01
+CORNER_MIN_DISTANCE = 10
+
+# Visualization
+ORBIT_RADIUS = 7
+POINT_RADIUS = 3
+ORBIT_COLOR = (0, 255, 0)
+POINT_COLOR = (0, 0, 255)
+FONT_SCALE = 0.7
+FONT_THICKNESS = 2
+BG_OPACITY = 0.6
